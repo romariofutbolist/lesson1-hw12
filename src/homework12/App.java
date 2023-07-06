@@ -5,8 +5,8 @@ class Main {
     public static void main(String[] args) {
         Author name = new Author("Ray", "Bradbury");
         Author name2 = new Author("Gabriel", "Marquez");
-        Book first = new Book("Fahrenheit 451", "Ray Bradbury", 1953);
-        Book second = new Book("Cien Anos de soledad", "Gavriel Marquez", 1967);
+        Book first = new Book("Fahrenheit 451", name, 1953);
+        Book second = new Book("Cien Anos de soledad", name2, 1967);
 
         System.out.println("Название: " + first.getBookName());
         System.out.println("Автор: " + first.getAuthorName());

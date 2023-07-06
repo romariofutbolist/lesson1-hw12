@@ -2,10 +2,10 @@ package homework12;
 
 public class Book {
     private final String bookName;
-    private final String authorName;
+    private final Author authorName;
     int publishingYear;
 
-    public Book (String bookName, String authorName, int publishingYear) {
+    public Book (String bookName, Author authorName, int publishingYear) {
         this.bookName = bookName;
         this.authorName = authorName;
         this.publishingYear = publishingYear;
@@ -14,7 +14,7 @@ public class Book {
     public String getBookName() {
         return this.bookName;
     }
-    public String getAuthorName() {
+    public Author getAuthorName() {
         return this.authorName;
     }
     public int getPublishingYear() {
